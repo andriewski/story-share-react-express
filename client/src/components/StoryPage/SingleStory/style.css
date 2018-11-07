@@ -1,0 +1,17 @@
+.media {
+  width: 320px;
+  max-height: 500px;
+  background-size: contain;
+}
+.card-animation {
+  animation: appear 0.3s;
+}
+@keyframes appear {
+  from {
+    transform: translateX(-30px);
+  }
+  to {
+    transform: translateX(0);
+  }
+
+}

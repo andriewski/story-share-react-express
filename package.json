@@ -1,0 +1,16 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "run server and client",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.6.0"
+  }
+}

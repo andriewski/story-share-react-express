@@ -1,0 +1,36 @@
+.navigation-bar {
+   position: relative;
+   display: flex;
+   font-size: 18px;
+   right: 10px;
+   top: 10px;
+ }
+.navigation-bar button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+  outline: none;
+  cursor: pointer;
+  text-transform: none;
+  font-size: 18px;
+}
+.navigation-bar button svg {
+  margin-right: 5px;
+}
+
+@media (max-width: 960px) {
+  .navigation-bar > li > a > button > span > span {
+    display: none;
+  }
+  .navigation-bar > li > button > span > span {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .navigation-bar {
+    right: 0;
+    top: 0;
+  }
+}

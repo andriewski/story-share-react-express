@@ -1,0 +1,25 @@
+.story-editor {
+  text-align: center;
+  padding-top: 40px;
+}
+.story-form__choice {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.story-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.story-form textarea {
+  resize: vertical;
+  width: 300px;
+}
+.story-form input {
+  width: 300px;
+}
+
+
+.hidden-button {
+  display: none;
+}

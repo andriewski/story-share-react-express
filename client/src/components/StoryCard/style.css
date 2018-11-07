@@ -1,0 +1,14 @@
+.media {
+/*  display: block;
+  width: 120px;
+  max-height: 500px;
+  background-size: contain;*/
+}
+.more-actions-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.story-card__text {
+  word-wrap: break-word;
+}

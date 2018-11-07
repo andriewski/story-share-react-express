@@ -1,0 +1,15 @@
+.story-page {
+  padding-bottom: 40px;
+}
+.comment-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.comment-form textarea {
+  resize: vertical;
+  width: 300px;
+}
+.comment-form button {
+  display: block;
+  margin: 30px auto;
+}

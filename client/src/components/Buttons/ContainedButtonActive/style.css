@@ -1,0 +1,10 @@
+.standart-button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  background-color: #673bb7;
+}

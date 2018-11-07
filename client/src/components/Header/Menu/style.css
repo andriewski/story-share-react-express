@@ -1,0 +1,38 @@
+.menu {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  justify-content: center;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+}
+.menu svg {
+  margin-right: 5px;
+}
+
+@media (max-width: 960px) {
+  .menu > li > a > button > span > span {
+    display: none;
+  }
+  .menu > li > button > span > span {
+    display: none;
+  }
+}
+@media (max-width: 660px) {
+  .menu {
+    width: 60px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 380px) {
+  .menu {
+    justify-content: flex-start;
+    left: 0;
+    top: 0;
+  }
+}
+
+

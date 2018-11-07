@@ -1,0 +1,23 @@
+.comments__comment {
+  position: relative;
+  margin-bottom: 20px;
+}
+.comments__comment:after {
+  content: "";
+  position: absolute;
+  left: -24px;
+  bottom: -10px;
+  display: block;
+  width: calc(100% + 48px);
+  height: 1px;
+  background-color: #919191;
+  opacity: 0.7;
+}
+.comments__comment:last-child {
+  margin-bottom: -10px;
+}
+
+.comments__comment:last-child:after {
+  display: none;
+}
+

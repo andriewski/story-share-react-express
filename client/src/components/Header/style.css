@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 170px;
+  min-width: 320px;
+}
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 1;
+}
+@media (max-width: 880px) {
+  .header {
+    justify-content: flex-start;
+  }
+  .navigation {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 380px) {
+  .header {
+    height: 140px;
+  }
+}
